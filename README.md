@@ -1,6 +1,10 @@
-# Firebase Firestore Text Search and Pagination
+# Firebase Firestore Text Search and Pagination fork for address index
 
-This source code is reference to my post on [Medium](https://medium.com/@ken11zer01/firebase-firestore-text-search-and-pagination-91a0df8131ef).
+The original source code is referenced in this post [Medium](https://medium.com/@ken11zer01/firebase-firestore-text-search-and-pagination-91a0df8131ef).
+
+This fork has changed the generation of the indexing array to be optimized for 4 word fields.
+The reason for 4 words is that I have a field that typically has 4 words , and it is the field I want to search.
+
 
 ## Install
 
