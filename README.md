@@ -5,6 +5,7 @@ The original source code is referenced in this post [Medium](https://medium.com/
 This fork has changed the generation of the indexing array to be optimized for 4 word fields.
 The reason for 4 words is that I have a field that typically has 4 words , and it is the field I want to search.
 
+the only file I have changed in this fork is /public/keywordGenerator.js
 
 ## Install
 
